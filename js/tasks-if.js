@@ -1,11 +1,11 @@
 // task 1
 console.log ('----Tasks 1:------');
 
-let num3 = 8;
-if (num3 % 2 == 0) {
-    console.log (`Number: ${num3} is even`);
+let num = 8;
+if (num % 2 == 0) {
+    console.log (`Number: ${num} is even`);
 } else {
-    console.log (`Number: ${num3} is odd`);
+    console.log (`Number: ${num} is odd`);
 }
 
 console.log('');
@@ -14,7 +14,7 @@ console.log ('----Tasks 2:------');
 
 let age = 22;
 
-if (age > 0 && age <= 18) {
+if (age >= 0 && age <= 18) {
     console.log ('You are in age group 0-18');
 } else if (age >= 19 && age <= 30) {
     console.log ('You are in age group 19-30');
@@ -30,14 +30,14 @@ console.log('');
 // task 3 
 console.log ('----Tasks 3:------');
 
-let num4 = 18;
+let num2 = 18;
 
- if (num4 % 2 == 0 && num4 % 3 == 0){
+ if (num2 % 2 == 0 && num2 % 3 == 0){
     console.log ("Fizz Bazz");
-} else if (num4 % 2 == 0) {
+} else if (num2 % 2 == 0) {
     console.log ("Fizz");
-} else if (num4 % 3 == 0) {
+} else if (num2 % 3 == 0) {
     console.log ("Bazz");
 } else {
-    console.log(num4);
+    console.log(num2);
 }
