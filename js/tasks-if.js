@@ -2,7 +2,7 @@
 console.log ('----Tasks 1:------');
 
 let num = 8;
-if (num % 2 == 0) {
+if (num % 2 === 0) {
     console.log (`Number: ${num} is even`);
 } else {
     console.log (`Number: ${num} is odd`);
@@ -32,11 +32,11 @@ console.log ('----Tasks 3:------');
 
 let num2 = 18;
 
- if (num2 % 2 == 0 && num2 % 3 == 0){
+ if (num2 % 2 === 0 && num2 % 3 === 0){
     console.log ("Fizz Bazz");
-} else if (num2 % 2 == 0) {
+} else if (num2 % 2 === 0) {
     console.log ("Fizz");
-} else if (num2 % 3 == 0) {
+} else if (num2 % 3 === 0) {
     console.log ("Bazz");
 } else {
     console.log(num2);
